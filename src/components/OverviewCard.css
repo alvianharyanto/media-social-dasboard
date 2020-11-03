@@ -1,0 +1,34 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+    padding: .7rem !important;
+    text-align: start;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+.overview__top {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview__content {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 1rem;
+}
+
+.overview__content .follower {
+    color: var(--primaryText);
+    font-size: 2.5em;
+}
+
+.overview__content .growth {
+    margin: auto 0 0;
+    font-size: .9em;
+}
+
+.overview__content .growth img {
+    margin: 0 .3rem .1rem;
+}
