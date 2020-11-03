@@ -33,7 +33,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 850px) {
     body {
         overflow-x: hidden;
     }
@@ -52,9 +52,15 @@ h2 {
     width: calc(100% - 3rem);
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1227px) {
     .container {
-        max-width: 70.5rem;
+        max-width: 70.5rem !important;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .container {
+        max-width: 50.5rem;
     }
 }
 
@@ -68,7 +74,7 @@ h2 {
     margin: 1.5rem auto;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 850px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -85,7 +91,7 @@ h2 {
     margin-bottom: 2.5rem;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 850px) {
 
     .main__top,
     .main__bottom {
