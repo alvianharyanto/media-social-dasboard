@@ -48,8 +48,8 @@ const users = [
 const Cards = () => {
     return (
         <>
-            {users.map((user) => (
-                <div className={"card" + user.socialMedia}>
+            {users.map((user, index) => (
+                <div key={index} className={"card" + user.socialMedia}>
                     <div className="card__top">
                         <img src={process.env.PUBLIC_URL + "/assets/images/" + user.images} alt="social icon" />
                         <label>{user.username}</label>

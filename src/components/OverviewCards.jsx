@@ -71,8 +71,8 @@ const users = [
 const OverviewCards = () => {
     return (
         <>
-            {users.map((user) => (
-                <div className="card overview">
+            {users.map((user, index) => (
+                <div key={index} className="card overview">
                     <div className="overview__top">
                         <label>{user.title}</label>
                         <img src={process.env.PUBLIC_URL + "/assets/images/" + user.images} alt="logo" />
