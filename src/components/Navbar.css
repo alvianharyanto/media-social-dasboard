@@ -3,6 +3,10 @@ nav {
     border-top: 1px solid #34374A;
 }
 
+nav:hover {
+    color: var(--primaryText);
+}
+
 @media screen and (min-width: 850px) {
 
     nav {

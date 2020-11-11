@@ -9,7 +9,7 @@ class Main extends Component {
                 <div className="main__top">
                     <Cards />
                 </div>
-                <div clasName="title">
+                <div>
                     <h2>Overview - Today</h2>
                 </div>
                 <div className="main__bottom">
